@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    background: #1f2937;
+    font-family: "Karla", sans-serif;
+    padding: 70px 50px;
+    max-width: 550px;
+}
+
+.text-color-green {
+    color: #55f991;
+}
+
+.title {
+    color: #ffffff;
+    font-weight: 800;
+    margin: 0 150px 5px 0;
+}
+
+.description {
+    color: #d5d4d8;
+    font-weight: 400;
+    margin: 0 0 50px 0;
+}
+
+#password-length-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #d5d4d8;
+    font-weight: 400;
+}
+
+#password-length {
+    margin-left: 10px;
+    background: #273549;
+    border: none;
+    width: 70px;
+    height: 40px;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#password-type-title {
+    color: #d5d4d8;
+    font-weight: 400;
+    margin: 0;
+}
+
+#password-type-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    color: #d5d4d8;
+    font-weight: 400;
+    width: 150px;
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#generate-password-btn {
+    background: #10b981;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.divider {
+    border: 1px solid #2f3e53;
+    margin-bottom: 20px;
+}
+
+#random-password-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.random-password-one,
+.random-password-two {
+    padding: 10px 20px;
+    background: #273549;
+    border: none;
+    border-radius: 6px;
+    width: 210px;
+    height: 40px;
+    color: #55f991;
+}
+
+.random-password-one:hover,
+.random-password-two:hover {
+    background: black;
+    transform: scale(1.05); /* Slightly enlarge the button */
+}

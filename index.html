@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <h1 class="title">
+            Generate a <span class="text-color-green">random password</span>
+        </h1>
+        <p class="description">Never use an insecure password again.</p>
+        <div id="password-length-container">
+            <label for="password-length" id="password-length-desc"
+                >Enter length of the password <br />
+                (between 6 and 15 characters only):</label
+            >
+            <input
+                type="number"
+                id="password-length"
+                name="password-length"
+                min="6"
+                max="15"
+                value="6"
+            />
+        </div>
+        <p id="password-type-title">Choose your password's type:</p>
+        <div id="password-type-container">
+            <div class="checkbox-container">
+                <label for="numbers">Numbers</label>
+                <input type="checkbox" id="numbers" name="numbers" checked />
+            </div>
+            <div class="checkbox-container">
+                <label for="characters">Characters</label>
+                <input
+                    type="checkbox"
+                    id="characters"
+                    name="characters"
+                    checked
+                />
+            </div>
+            <div class="checkbox-container">
+                <label for="alphabets">Alphabets</label>
+                <input
+                    type="checkbox"
+                    id="alphabets"
+                    name="alphabets"
+                    checked
+                />
+            </div>
+        </div>
+        <button id="generate-password-btn">Generate passwords</button>
+        <hr class="divider" />
+        <div id="random-password-container">
+            <button class="random-password-one"></button>
+            <button class="random-password-two"></button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
